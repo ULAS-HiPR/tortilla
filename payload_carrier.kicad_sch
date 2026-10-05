@@ -54,6 +54,34 @@
 		)
 		(uuid "10c56c6d-788a-4931-8503-3bdbd7ab1ea9")
 	)
+	(text "TORTILLA\nHiPR PAYLOAD"
+		(exclude_from_sim no)
+		(at 319.278 149.352 0)
+		(effects
+			(font
+				(face "JetBrainsMonoNL NF")
+				(size 12.7 12.7)
+				(thickness 1.524)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b4f46a79-119f-401c-8c57-e30ffd704ecf")
+	)
+	(text "REV 1"
+		(exclude_from_sim no)
+		(at 276.352 172.212 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "bf068a1a-0b11-4bbf-8cff-ff4f3e8e11f0")
+	)
 	(text "MICROCONTROLLER + SWD"
 		(exclude_from_sim no)
 		(at 66.802 120.142 0)
