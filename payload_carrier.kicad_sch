@@ -5132,7 +5132,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "TPS73733DCQR:IC_TPS73733DCQR"
+			(property "Footprint" "My footprints:IC_TPS73733DCQR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5749,7 +5749,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 198.12) (xy 83.82 198.12)
+			(xy 71.12 193.04) (xy 83.82 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7748,7 +7748,7 @@
 		(uuid "ffc011b6-0ce8-43ff-81be-1e37bd1309c3")
 	)
 	(label "SWDIO"
-		(at 71.12 198.12 0)
+		(at 71.12 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7897,7 +7897,7 @@
 		)
 		(uuid "707a5e08-d190-4638-b040-35358279d9cc")
 	)
-	(label "SD_SCK"
+	(label "SD_CLK"
 		(at 167.64 260.35 0)
 		(effects
 			(font
@@ -7937,7 +7937,7 @@
 		)
 		(uuid "8bc95b10-55a6-44e1-b042-0ebe08f8f303")
 	)
-	(label "MB_SDL"
+	(label "MB_SDA"
 		(at 68.58 213.36 0)
 		(effects
 			(font
@@ -8239,7 +8239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 149.86 34.5948 0)
 			(hide yes)
 			(show_name no)
@@ -8399,7 +8399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.662 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -8481,7 +8481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 180.34 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8805,7 +8805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70.8152 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8887,7 +8887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 320.802 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -8967,7 +8967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 119.38 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9136,7 +9136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 171.45 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9405,7 +9405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 			(at 182.88 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9485,7 +9485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 207.01 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9677,7 +9677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.0952 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -9994,7 +9994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 310.642 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -10074,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
 			(at 165.1 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -10614,7 +10614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 342.9 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10714,7 +10714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.162 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -10795,7 +10795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 275.59 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10894,7 +10894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11052,7 +11052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" ""
 			(at 124.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11147,7 +11147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.462 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -11309,7 +11309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 202.8952 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11391,7 +11391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.752 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -11473,7 +11473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.8652 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11554,7 +11554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.58 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -11712,7 +11712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS73733DCQR:IC_TPS73733DCQR"
+		(property "Footprint" "My footprints:IC_TPS73733DCQR"
 			(at 58.42 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11854,7 +11854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.0652 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12017,7 +12017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.078 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -12099,7 +12099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.662 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -12257,7 +12257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 24.13 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12416,7 +12416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 194.31 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12933,7 +12933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.668 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -13015,7 +13015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.752 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -13095,7 +13095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
 			(at 166.37 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13176,7 +13176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.58 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -13257,7 +13257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.9552 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13494,7 +13494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Wuerth_693072010801"
 			(at 229.87 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -13596,7 +13596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.1752 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13755,7 +13755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 200.3552 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -13837,7 +13837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.322 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -13917,7 +13917,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 140.97 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14009,7 +14009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 192.7352 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14090,7 +14090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.2852 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14328,7 +14328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 59.3852 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14605,6 +14605,260 @@
 			(project "payload_carrier"
 				(path "/a2cb1e14-d4cf-4893-8103-046de657b74e"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.7 160.02) (xy 144.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7e92c2-e780-497a-8cfa-946fc97db0e4")
+	)
+	(junction
+		(at 144.78 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dfa53d0-461f-40e2-9190-fccb0c6da194")
+	)
+	(symbol
+		(lib_id "KiCad:C")
+		(at 148.59 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d01b6bb5-811c-4900-8ef5-c582040e22fd")
+		(property "Reference" "C15"
+			(at 154.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 154.94 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.59 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f518d96-501b-4767-8e58-34624bfc0444")
+		)
+		(pin "2"
+			(uuid "09b37a22-bb72-4ad1-a338-01230f79ea2d")
+		)
+		(instances
+			(project "payload_carrier"
+				(path "/a2cb1e14-d4cf-4893-8103-046de657b74e"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:+3.3V")
+		(at 144.78 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd84f28-cab6-4728-838d-1488215655be")
+		(property "Reference" "#PWR033"
+			(at 144.78 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 144.78 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 144.78 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d279c69-545c-49ff-8cd3-2322a30848be")
+		)
+		(instances
+			(project "payload_carrier"
+				(path "/a2cb1e14-d4cf-4893-8103-046de657b74e"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:GND")
+		(at 152.4 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3ecc28b-822a-48a7-bc6f-234becac2dfb")
+		(property "Reference" "#PWR034"
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4144c3a1-9419-436e-b7a9-b6eb7d358a1e")
+		)
+		(instances
+			(project "payload_carrier"
+				(path "/a2cb1e14-d4cf-4893-8103-046de657b74e"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
