@@ -5674,24 +5674,8 @@
 		(uuid "f2a4a41a-d82d-4672-9c60-69028db98e92")
 	)
 	(no_connect
-		(at 199.39 76.2)
-		(uuid "0c74712c-c115-4e69-a682-0cd71ceb43e4")
-	)
-	(no_connect
 		(at 209.55 76.2)
 		(uuid "25167873-e57b-41be-9383-ecde7b06f246")
-	)
-	(no_connect
-		(at 194.31 76.2)
-		(uuid "5f30ac83-752c-4130-b92b-151d645ab499")
-	)
-	(no_connect
-		(at 196.85 76.2)
-		(uuid "60dea12a-7388-4f46-90f6-d9f41d84bd1c")
-	)
-	(no_connect
-		(at 191.77 76.2)
-		(uuid "b36cd639-bf17-463a-9c83-59226b7e40da")
 	)
 	(no_connect
 		(at 207.01 76.2)
@@ -13095,7 +13079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-4020"
 			(at 166.37 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13106,7 +13090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438356033.pdf"
 			(at 166.37 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13117,7 +13101,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Inductor, Wurth WE-MAPI 4020 74438356033, 3.3uH, Isat 3.55A"
 			(at 166.37 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14863,6 +14847,239 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 191.77 76.2) (xy 191.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd26e55-5b9a-4307-a493-a341ef02631c")
+	)
+	(wire
+		(pts
+			(xy 194.31 76.2) (xy 194.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f5cb1b-d0cd-4ec0-ac13-c1cd1fbef6e2")
+	)
+	(wire
+		(pts
+			(xy 191.77 73.66) (xy 194.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341c6243-2204-4f48-8491-f513a958e0d2")
+	)
+	(label "USB_DM"
+		(at 191.77 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e4a0c95-16fc-402f-bad3-fa51196a6a18")
+	)
+	(wire
+		(pts
+			(xy 196.85 76.2) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825eaa95-a10b-451b-844d-2c88610f4bfb")
+	)
+	(wire
+		(pts
+			(xy 199.39 76.2) (xy 199.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed76562-4c33-4011-98b6-16718c306b33")
+	)
+	(wire
+		(pts
+			(xy 196.85 74.93) (xy 199.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafe9893-9654-45d4-b6f8-bf38c24b31f9")
+	)
+	(label "USB_DP"
+		(at 199.39 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1651f67-142f-41d3-b4be-50570aa908ca")
+	)
+	(wire
+		(pts
+			(xy 71.12 182.88) (xy 83.82 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f30216c-3149-4dc7-b7d8-8cc54489efc9")
+	)
+	(label "USB_DM"
+		(at 71.12 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbd9a19c-71d9-4beb-9cb9-c2e3bc016eb0")
+	)
+	(wire
+		(pts
+			(xy 71.12 187.96) (xy 83.82 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c510da8-9e71-4d50-9e86-754c90e0aece")
+	)
+	(label "USB_DP"
+		(at 71.12 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "682261d8-1be9-4861-85f9-2fc30adb17f5")
+	)
+	(symbol
+		(lib_id "KiCad:C")
+		(at 171.45 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3374e06d-0191-4d37-ae42-45eb84f4f4fc")
+		(property "Reference" "C16"
+			(at 162.56 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 162.56 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 172.4152 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b37f6f35-224d-4582-8ddb-3a90a083e579")
+		)
+		(pin "2"
+			(uuid "737caaa1-09ce-4512-a99f-887df3fd6dc2")
+		)
+		(instances
+			(project "payload_carrier"
+				(path "/a2cb1e14-d4cf-4893-8103-046de657b74e"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 171.45 36.83) (xy 176.53 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3862b73-51d6-4b5b-b184-a16682b623d1")
+	)
+	(junction
+		(at 176.53 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9d0eba-6619-4898-9477-d63882458507")
+	)
+	(wire
+		(pts
+			(xy 171.45 44.45) (xy 176.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc02d49-1d84-4703-a92f-6c60f845dbfc")
+	)
+	(junction
+		(at 176.53 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dba9232-2a05-431f-8b05-3db4a7b87490")
 	)
 	(sheet_instances
 		(path "/"
