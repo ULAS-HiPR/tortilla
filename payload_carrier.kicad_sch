@@ -9110,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Value" "B340"
+		(property "Value" "B340A"
 			(at 171.45 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9459,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Value" "B340"
+		(property "Value" "B340A"
 			(at 207.01 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
